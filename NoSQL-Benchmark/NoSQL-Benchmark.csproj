@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>NoSQL_Benchmark</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ArangoDB.Client" Version="0.7.70" />
+      <PackageReference Include="BenchmarkDotNet" Version="0.11.4" />
+      <PackageReference Include="Bogus" Version="25.0.4" />
+      <PackageReference Include="CassandraCSharpDriver" Version="3.7.0" />
+      <PackageReference Include="CouchDB.Client" Version="1.0.5" />
+      <PackageReference Include="MongoDB.Driver" Version="2.7.2" />
+      <PackageReference Include="MyCouch" Version="6.0.0" />
+      <PackageReference Include="Npgsql" Version="4.0.4" />
+      <PackageReference Include="RavenDB.Client" Version="4.1.4" />
+    </ItemGroup>
+
+</Project>
